@@ -32,6 +32,8 @@ public class LineComparison
         
         System.out.println("Line one is equal to line two:"+ lineOne.equals(lineTwo));
         
+        System.out.println("Comparison of line one to two (if equal(0),if short(-1), long(1): "+ lineOne.compareTo(lineTwo));
+        
         
     }
 }
